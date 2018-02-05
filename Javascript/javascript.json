@@ -1,15 +1,4 @@
 {
-	"Angular Routes File": {
-		"prefix": "rut",
-		"body": [
-			"import { Routes } from '@angular/router';",
-			
-			"export const routes: Routes = [",
-				"{path: '$1', component: $2}",
-			"];"
-		],
-		"description": "Complete Routes File"
-  },
 	"Print to console": {
 		"prefix": "log",
 		"body": [
