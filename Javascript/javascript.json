@@ -1,0 +1,65 @@
+{
+  "Routes File": {
+		"prefix": "rut",
+		"body": [
+			"import { Routes } from '@angular/router';",
+			
+			"export const routes: Routes = [",
+				"{path: '$1', component: $2}",
+			"];"
+		],
+		"description": "Complete Routes File"
+  },
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');"
+		],
+		"description": "Log output to console"
+	},
+	"Anonimous function": {
+		"prefix": "anon",
+		"body": [
+			"function () {",
+				"\t$1",
+			"})"
+		],
+		"description": "Anonimous function"
+	},
+	"Arrow function": {
+		"prefix": "arrow",
+		"body": [
+			"() => {",
+				"\t$1",
+			"})"
+		],
+		"description": "Arrow function"
+	},
+	"beforeEach TDD": {
+		"prefix": "tbe",
+		"body": [
+			"beforeEach(() => {",
+				"\t$1",
+			"})"
+		],
+		"description": "TDD beforeEach"
+	},
+	"TDD Describe": {
+		"prefix": "tdes",
+		"body": [
+			"describe('$1', () => {",
+				"\t'$2'",
+			"})"
+		],
+		"description": "TDD describe function"
+	},
+	"TDD it": {
+		"prefix": "tit",
+		"body": [
+			"it('should...$1', () => {",
+				"\t'$2'",
+			"})"
+		],
+		"description": "TDD it function"
+  }
+}
