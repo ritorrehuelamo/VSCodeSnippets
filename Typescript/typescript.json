@@ -1,0 +1,21 @@
+{
+	"Function": {
+		"prefix": "fun",
+		"body": [
+			"function fun_name$1 (param: any$2) :void$3 {",
+				"\t$4",
+			"}"
+		],
+		"description": "Function body with void return"
+	},
+	"Interface": {
+		"prefix": "intfc",
+		"body": [
+			"interface name$1 {",
+				"\tvar$2: String",
+			"}",
+			"\n",
+			"export { name$3 }"
+		]
+	}
+}
