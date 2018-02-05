@@ -2,8 +2,8 @@
 	"Function": {
 		"prefix": "fun",
 		"body": [
-			"function fun_name$1 (param: any$2) :void$3 {",
-				"\t$4",
+			"function fun_name$1 (param1: any$2, param2?: any$3) :void$4 {",
+				"\t$5",
 			"}"
 		],
 		"description": "Function body with void return"
