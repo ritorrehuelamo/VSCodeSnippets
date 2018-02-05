@@ -1,5 +1,5 @@
 {
-  "Angular Routes File": {
+	"Angular Routes File": {
 		"prefix": "rut",
 		"body": [
 			"import { Routes } from '@angular/router';",
@@ -16,6 +16,15 @@
 			"console.log('$1');"
 		],
 		"description": "Log output to console"
+	},
+	"Function": {
+		"prefix": "fun",
+		"body": [
+			"function func_name$1 () {",
+				"\t$2",
+			"}"
+		],
+		"description": "JS Function"
 	},
 	"Anonimous function": {
 		"prefix": "anon",
@@ -35,7 +44,7 @@
 		],
 		"description": "Arrow function"
 	},
-	"beforeEach": {
+	"beforeEach function": {
 		"prefix": "tbe",
 		"body": [
 			"beforeEach(() => {",
