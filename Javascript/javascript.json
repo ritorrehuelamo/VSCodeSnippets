@@ -10,7 +10,7 @@
 		"prefix": "fun",
 		"body": [
 			"function func_name$1 () {",
-				"\t$2",
+				"\t//body...$2",
 			"}"
 		],
 		"description": "JS Function"
@@ -19,7 +19,7 @@
 		"prefix": "anon",
 		"body": [
 			"function () {",
-				"\t$1",
+				"\t//body...$1",
 			"})"
 		],
 		"description": "Anonimous function"
@@ -28,7 +28,7 @@
 		"prefix": "arrow",
 		"body": [
 			"() => {",
-				"\t$1",
+				"\t//body...$1",
 			"})"
 		],
 		"description": "Arrow function"
@@ -37,7 +37,7 @@
 		"prefix": "tbe",
 		"body": [
 			"beforeEach(() => {",
-				"\t$1",
+				"\t//body...$1",
 			"})"
 		],
 		"description": "beforeEach"
@@ -46,7 +46,7 @@
 		"prefix": "tdes",
 		"body": [
 			"describe('$1', () => {",
-				"\t'$2'",
+				"\t//body...$2",
 			"})"
 		],
 		"description": "describe function"
@@ -55,7 +55,7 @@
 		"prefix": "tit",
 		"body": [
 			"it('should...$1', () => {",
-				"\t'$2'",
+				"\t//body...$2",
 			"})"
 		],
 		"description": "it function"
