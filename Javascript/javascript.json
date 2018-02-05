@@ -1,5 +1,5 @@
 {
-  "Routes File": {
+  "Angular Routes File": {
 		"prefix": "rut",
 		"body": [
 			"import { Routes } from '@angular/router';",
@@ -35,31 +35,31 @@
 		],
 		"description": "Arrow function"
 	},
-	"beforeEach TDD": {
+	"beforeEach": {
 		"prefix": "tbe",
 		"body": [
 			"beforeEach(() => {",
 				"\t$1",
 			"})"
 		],
-		"description": "TDD beforeEach"
+		"description": "beforeEach"
 	},
-	"TDD Describe": {
+	"describe function": {
 		"prefix": "tdes",
 		"body": [
 			"describe('$1', () => {",
 				"\t'$2'",
 			"})"
 		],
-		"description": "TDD describe function"
+		"description": "describe function"
 	},
-	"TDD it": {
+	"it function": {
 		"prefix": "tit",
 		"body": [
 			"it('should...$1', () => {",
 				"\t'$2'",
 			"})"
 		],
-		"description": "TDD it function"
+		"description": "it function"
   }
 }
